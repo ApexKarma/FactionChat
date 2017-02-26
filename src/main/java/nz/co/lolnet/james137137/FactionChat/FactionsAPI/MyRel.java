@@ -14,7 +14,8 @@ import nz.co.lolnet.james137137.FactionChat.FactionChat;
  */
 public enum MyRel {
 
-    LEADER(70, true, "your faction leader", "your faction leader", "", ""),
+    LEADER(80, true, "your faction leader", "your faction leader", "", ""),
+    COLEADER(70, true, "your faction coleader", "coleaders in your faction", "", ""),
     OFFICER(60, true, "an officer in your faction", "officers in your faction", "", ""),
     MEMBER(50, true, "a member in your faction", "members in your faction", "your faction", "your factions"),
     RECRUIT(45, true, "a recruit in your faction", "recruits in your faction", "", ""),
@@ -93,6 +94,8 @@ public enum MyRel {
     public String toString() {
         if (this.equals(MyRel.LEADER)) {
             return Config.LeaderRank;
+        } else if (this.equals(MyRel.COLEADER)) {
+            return Config.ColeaderRank;
         } else if (this.equals(MyRel.OFFICER)) {
             return Config.OfficerRank;
         } else if (this.equals(MyRel.MEMBER)) {

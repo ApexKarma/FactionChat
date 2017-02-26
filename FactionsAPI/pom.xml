@@ -15,30 +15,30 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.bukkit</groupId>
-            <artifactId>bukkit</artifactId>
-            <version>1.7.9-R0.1-SNAPSHOT</version>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.11.2-R0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.massivecraft</groupId>
-            <artifactId>factions2</artifactId>
-            <version> 2.0.0</version>
+            <artifactId>factions</artifactId>
+            <version>2.11-SNAPSHOT</version>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/Factions_UUID.jar</systemPath>
+            <systemPath>${basedir}/lib/Factions-imaBASKET.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.massivecraft</groupId>
             <artifactId>MassiveCore</artifactId>
             <version>6.4</version>
             <scope>system</scope>
-            <systemPath>${basedir}/lib/MassiveCore 2.8.6.jar</systemPath>
+            <systemPath>${basedir}/lib/MassiveCore.jar</systemPath>
         </dependency>
     </dependencies>
     
     <repositories>
         <repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots</url>
         </repository>
     </repositories>
     

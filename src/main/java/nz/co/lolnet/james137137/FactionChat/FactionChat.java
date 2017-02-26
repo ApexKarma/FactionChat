@@ -144,9 +144,9 @@ public class FactionChat extends JavaPlugin {
             } else {
                 log.warning("[FactionChat]: This version of FactionChat might "
                         + "not support the latest factions, please update FactionChat;"
-                        + " if there isn't one advailble nag james137137");
+                        + " if there isn't one advailble ask imaBASKET");
                 try {
-                    factionsAPI = (FactionsAPI) Class.forName("nz.co.lolnet.james137137.FactionChat.FactionsAPI.FactionsAPI_2_8_0").getConstructor().newInstance();
+                    factionsAPI = (FactionsAPI) Class.forName("nz.co.lolnet.james137137.FactionChat.FactionsAPI.FactionsAPI_2_11_SNAPSHOT").getConstructor().newInstance();
                 } catch (Exception ex) {
                     Logger.getLogger(FactionChat.class.getName()).log(Level.SEVERE, null, ex);
                 }

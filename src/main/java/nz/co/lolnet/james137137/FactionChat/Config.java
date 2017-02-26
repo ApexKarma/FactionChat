@@ -50,6 +50,7 @@ public class Config {
     public static String messageAllyMuteChatOn;
     public static String messageSpyModeOff;
     public static String MemberRank;
+    public static String ColeaderRank;
 
     public static String messageIncorectChatModeSwitch;
 
@@ -105,6 +106,7 @@ public class Config {
             
             
             Config.LeaderRank = config.getString("FactionRank.Leader");
+            Config.ColeaderRank = config.getString("FactionRank.Coleader");
             Config.OfficerRank = config.getString("FactionRank.Officer");
             Config.MemberRank = config.getString("FactionRank.Member");
             Config.RecruitRank = config.getString("FactionRank.Recruit");

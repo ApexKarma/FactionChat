@@ -15,7 +15,7 @@ PublicMuteDefault: false
 # reduces the chance of spam by allowing 1 message per X miliSecounds (ms)
 ChatLimit: 100
 # allows self command /fc mutePublic or /fc Mute (prevents public messages sent to client)
-AllowPublicMuteCommand: false
+AllowPublicMuteCommand: true
 #this will disabled certain commands please make sure you include the aliases 
 #for example -fchatf and -ff
 # they must be only contain lower case 
@@ -54,6 +54,7 @@ EventPriority:
 # you can now change leader to ** or whatever you like :-D
 FactionRank:
   Leader: 'Leader'
+  Coleader: 'Coleader'
   Officer: 'Officer'
   Member: 'Member'
   Recruit: 'Recruit'
@@ -95,13 +96,13 @@ LeaderChatEnable: true
 OfficerChatEnable: true
 EnemyChatEnable: true
 OtherChatEnable: true
-ModChatEnable: true
-AdminChatEnable: true
-JrModChatEnable: true
-SrModChatEnable: true
-JrAdminChatEnable: true
-UAChatEnable: true
-VIPChatEnable: true
+ModChatEnable: false
+AdminChatEnable: false
+JrModChatEnable: false
+SrModChatEnable: false
+JrAdminChatEnable: false
+UAChatEnable: false
+VIPChatEnable: false
 # What language should the messages be in. Accepts 'english', or 'other' only.
 MessageLanguage: english
 # These can be modified to your liking.
